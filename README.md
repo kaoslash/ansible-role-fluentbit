@@ -1,20 +1,8 @@
 Ansible Role Fluentbit
 =========
 
-[![Build Status](https://travis-ci.org/orachide/ansible-role-fluentbit.svg?branch=master)](https://travis-ci.org/orachide/ansible-role-fluentbit)
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-orachide-660198.svg)](https://galaxy.ansible.com/orachide)
-
 This role install [Fluentbit](https://fluentbit.io/) as a service on given hosts
 
-Installation
-------------
-
-    ansible-galaxy install orachide.fluentbit
-
-Requirements
-------------
-
-None
 
 Role Variables
 --------------
@@ -28,10 +16,6 @@ Role Variables
 | fluentbit_additional_conf_files  | false     | *[]*          | Additional conf files to be installed, could be *Jinja* template |
 | fluentbit_apt_repo | false | *deb https://packages.fluentbit.io/ubuntu/bionic bionic main* | An apt source url to use |
 
-Dependencies
-------------
-
-None
 
 Example Playbook
 ----------------
@@ -64,4 +48,4 @@ BSD
 Author Information
 ------------------
 
-This role was created in 2019 by [Rachide Ouattara](https://orachide.chidix.fr/).
+Original role was created in 2019 by [Rachide Ouattara](https://orachide.chidix.fr/).
